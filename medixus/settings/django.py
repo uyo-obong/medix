@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     # "medixus.apps.common",
     # "medixus.apps.accounts",
     "medixus.apps.referral",
+    "medixus.apps.new_feature",
 ] + env.list("MEDIXUS_DEV_INSTALLED_APPS", default=[])
 
 MIDDLEWARE = [
